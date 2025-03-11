@@ -1,0 +1,59 @@
+# Visual Studio Code
+.vscode/
+
+# Visual Studio and JetBrains Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build and Bin/Obj directories
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# Logs and Debug
+*.log
+logs/
+debug/
+dump/
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Dotnet-specific files
+project.lock.json
+global.json
+appsettings*.json
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider and ReSharper
+*.sln.iml
+.idea/
+
+# MacOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# React (Node.js) Ignored Files (Inside aidn-frontend/)
+aidn-frontend/node_modules/
+aidn-frontend/build/
+aidn-frontend/.parcel-cache/
+aidn-frontend/.next/
+aidn-frontend/.turbo/
+aidn-frontend/.yarn/cache/
+aidn-frontend/.yarn/unplugged/
+aidn-frontend/.eslintcache
+aidn-frontend/yarn.lock
+aidn-frontend/package-lock.json
+aidn-frontend/npm-debug.log*
